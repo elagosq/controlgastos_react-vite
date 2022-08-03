@@ -92,6 +92,7 @@ const Modal = ({
            id="categoria" 
            value={categoria}
            onChange={ e => setCategoria(e.target.value)}
+           className="estilosreiniciarselect"
           >
             <option value="">-- Seleccione --</option>
             <option value="ahorro">Ahorro</option>
